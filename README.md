@@ -22,3 +22,4 @@ Este diagrama es provisional (A medida que se avance el proyecto se cambiaran al
 # Video
 
 https://drive.google.com/file/d/18xU-zs9AggJLsFeZ-VAx1zkhMrUYfkub/view?usp=sharing
+https://drive.google.com/file/d/19hJs3KFgxT5OkkVagirzSbDbZ0evOdtk/view?usp=sharing
