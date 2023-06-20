@@ -8,7 +8,7 @@ use App\Models\Juego;
 class JuegoController extends Controller
 {
     function __construct(){
-        $this->middleware('permission:ver-juego | crear-juego | editar-juego | borrar-juego')->only('index');
+        $this->middleware('permission:ver-juego|crear-juego|editar-juego|borrar-juego')->only('index');
         $this->middleware('permission:crear-juego', ['only'=>['create', 'store']]);
         $this->middleware('permission:editar-juego', ['only'=>['edit', 'update']]);
         $this->middleware('permission:borrar-juego', ['only'=>['destroy']]);
@@ -42,13 +42,15 @@ class JuegoController extends Controller
      */
     public function store(Request $request)
     {
-        request()->validate([
-            'titulo' => 'required',
-            'contenido' => 'required',
-            'categoria' => 'required'
-        ]);
-        Juego::create($request->all());
-        return redirect()->route('juegos.index');
+        $juegos = new Juego();
+        $juegos->titulo = $request->get('titulo');
+        $juegos->contenido = $request->get('contenido');
+        $juegos->categoria = $request->get('categoria');
+        
+
+        $juegos->save();
+
+        return redirect('/juegos');
     }
 
     /**

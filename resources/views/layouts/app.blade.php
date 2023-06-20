@@ -8,6 +8,9 @@
     <!-- Bootstrap 4.1.1 -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
     <!-- Ionicons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link href="{{ asset('assets/css/@fortawesome/fontawesome-free/css/all.css') }}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{ asset('assets/css/iziToast.min.css') }}">
@@ -79,4 +82,5 @@
         };
     }(jQuery));
 </script>
+@yield('js')
 </html>

@@ -678,7 +678,7 @@ div.code-toolbar > .toolbar span:focus {
 
 /*-------------------------------------- 1. Default Styles --------------------------------------*/
 body {
-    font-family: "Merriweather", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 400;
     color: #757575;
     background-color: #f5f8f9;
@@ -722,7 +722,7 @@ body {
 
 /*-------------------------------------- 1.1 Fonts & Colors --------------------------------------*/
 p {
-    font-family: "Merriweather", serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: -0.05px;
