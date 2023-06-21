@@ -6,13 +6,13 @@
         <h3 class="page__heading">Juegos</h3>
     </div>
 <table id="juegos" class="table table-striped table-bordered shadow-lg mt-5" style="width:100%">
-    <thead class="bg-primary text-white">
+    <thead class="bg-primary text-light">
         <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Nombre</th>
-            <th scope="col">Descripción</th>
-            <th scope="col">Categoria</th>
-            <th scope="col">Acciones</th>
+            <th style="color: #fff" scope="col">ID</th>
+            <th style="color: #fff" scope="col">Nombre</th>
+            <th style="color: #fff" scope="col">Descripción</th>
+            <th style="color: #fff" scope="col">Categoria</th>
+            <th style="color: #fff" scope="col">Acciones</th>
         </tr>
     </thead>
     <tbody>
